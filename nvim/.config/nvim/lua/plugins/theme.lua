@@ -32,10 +32,5 @@ return {
             })
         end,
     },
-
-    {
-        "rrethy/vim-hexokinase",
-        build = "make hexokinase",
-        lazy = false,
-    },
+    { "nvim-tree/nvim-web-devicons", opts = {} },
 }

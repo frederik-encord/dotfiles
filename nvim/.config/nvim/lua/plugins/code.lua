@@ -66,7 +66,6 @@ return {
   {
     "neovim/nvim-lspconfig",
     dependencies = {
-      "jose-elias-alvarez/null-ls.nvim",
       "hrsh7th/cmp-nvim-lsp",
     },
     lazy = false,
@@ -77,7 +76,7 @@ return {
       local settings = { capabilities = capabilities }
       lsp_conf.pyright.setup(settings)
       lsp_conf.lua_ls.setup(settings)
-      lsp_conf.tsserver.setup(settings)
+      lsp_conf.ts_ls.setup(settings)
       lsp_conf.tailwindcss.setup(settings)
       lsp_conf.prismals.setup(settings)
     end,

@@ -35,9 +35,6 @@ require("nvim-treesitter.configs").setup({
   autotag = {
     enable = true,
   },
-  context_commentstring = {
-    enable = true,
-  },
   keymaps = {
     -- You can use the capture groups defined in textobjects.scm
     ["af"] = "@function.outer",
